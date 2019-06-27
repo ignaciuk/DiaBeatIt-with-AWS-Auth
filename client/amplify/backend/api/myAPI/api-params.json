@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "clientd9754c43",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "myAPI",
+    "apiName": "myAPI",
+    "functionArns": [
+        {
+            "lambdaFunction": "clientd9754c43"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "client-dev-20190626214849-authRole",
+        "unAuthRoleName": "client-dev-20190626214849-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "clientd9754c43",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

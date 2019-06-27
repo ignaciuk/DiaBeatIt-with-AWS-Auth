@@ -1,0 +1,5 @@
+{
+    "tableName": "CalorieData",
+    "partitionKeyName": "username",
+    "partitionKeyType": "S"
+}
